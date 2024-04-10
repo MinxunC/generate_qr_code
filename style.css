@@ -36,6 +36,7 @@ select,
 input{
     height: 30px;
     border: 0;
+    padding: 0;
 }
 
 #submit-btn{
@@ -50,4 +51,21 @@ footer{
     bottom: 1px;
     transform: translate(-50%,0);
     color: white;
+    font-size: xx-small;
+}
+
+@media screen and (max-width: 350px) {
+    .container{
+        width: 300px;
+    }
+    
+    h1{
+        font-size: larger;
+    }
+
+    section div{
+        margin-bottom: 10px;
+        font-size: medium;
+    }
+
 }
