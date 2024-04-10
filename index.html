@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QR code</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <main>
+            <section class="container">
+                <h1>Generate your QR code</h1>
+                <div class="question" id="text-question">
+                    <label for="qr-name">Please enter text or URL:</label>
+                    <input id="qr-name" type="text" required>
+                </div>
+                <div class="question" id="size-question">
+                    <label for="qr-size">Please select QR code size:</label>
+                    <select id="qr-size">
+                        <option value="150x150">150x150</option>
+                        <option value="200x200">200x200</option>
+                        <option value="250x250" selected>250x250</option>
+                        <option value="300x300">300x300</option>
+                        <option value="350x350">350x350</option>
+                    </select>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Get QR code" id="submit-btn">
+                </div>
+                <img id="qrImg" src="" alt="">
+
+
+            </section>
+        </main>
+        <footer>CopyRight © Min.C - All Rights Reserved</footer>
+        <script src="./index.js"></script>
+    </body>
+</html>

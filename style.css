@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-image: linear-gradient(#A4508B, #5F0A87);
+}
+
+.container{
+    width: 400px;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
+section div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+select, 
+input{
+    height: 30px;
+    border: 0;
+}
+
+#submit-btn{
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    left: 50%;
+    bottom: 1px;
+    transform: translate(-50%,0);
+    color: white;
+}
